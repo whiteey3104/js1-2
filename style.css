@@ -1,0 +1,28 @@
+
+.tab-menu{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tab1,#tab2,#tab3{
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height:40px;
+    border: 2px solid black;
+    display:none;
+}
+
+.is-active{
+    background:#F00;
+    color:#FFF;
+}
+
+.text.is-show{
+    display:block;
+}
